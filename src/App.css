@@ -1,0 +1,96 @@
+.main{
+  justify-items: center;
+}
+ 
+.inputtext{
+  color: "#fff";
+  width : 40px;
+  height: 40px;
+  border-radius: 10px;
+  font-Size: 24px;
+  justify-Content: "center";
+  cursor: "pointer";
+}
+.backgroundbutton{
+  size: large;
+  width: 115px;
+  justify-content: center;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  padding-top: 50px;
+  background-color: #46045e;
+}
+
+.weather{
+  width: 380px;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 50px auto;
+  background-color: #46045e;
+}
+
+.weather-container{
+  width: 500px;
+  padding: 100px;
+  border-radius: 10px;
+  margin: 50px auto;
+  align-items: center;
+  font-size: 100px;
+  border-style:solid;
+  display: flex;
+  border-radius: 50px;
+  
+}
+.cloud{
+  display: block;
+  margin: auto;
+  margin-top: -100px ;
+  mix-blend-mode: darken;
+  width: 250px;
+  align-items: center;
+}
+
+.weather-container h1{
+  font-size: 100px;
+  font-weight: 400;
+  margin-top: 5px;
+  text-align: center;
+  justify-content: center;
+}
+.weather-container h2{
+  font-size: 75px;
+  font-weight: 300;
+  margin-top: 5px;
+  text-align: center;
+  justify-content: center;
+}
+
+.water  {
+mix-blend-mode: darken;
+width: 200px;
+display: flex;
+}
+
+.air{
+  mix-blend-mode: darken;
+  width: 200px;
+  display: flex;
+
+}
+
+.list-tem{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  width: 200px;
+  padding: 0px 20px;
+  margin-top: 50px ;
+}
+
+.col{
+  align-items: center;
+  text-align: left;
+  font-size: 25px;
+}
